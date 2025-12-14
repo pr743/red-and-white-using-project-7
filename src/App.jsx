@@ -8,7 +8,7 @@ import CPP from './Page/CPP';
 import Python from './Page/Python';
 import MYsql from './Page/Mysql ';
 import ReactJS from './Page/ReactJS';
-import JavaScript from './Page/javaScript ';
+import JavaScript from './Page/JavaScript ';
 
 
 function App() {
