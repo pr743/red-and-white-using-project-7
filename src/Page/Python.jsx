@@ -226,7 +226,7 @@ function Python() {
       <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white p-6">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-4xl font-extrabold text-center mb-6">
-            CPP Quiz Result
+            Python Quiz Result
           </h1>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
