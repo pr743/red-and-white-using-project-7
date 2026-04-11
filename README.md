@@ -1,16 +1,117 @@
-# React + Vite
+# 🧠 Quiz Application (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive Quiz Application built using React.js. This project focuses on dynamic UI rendering, state management, and user interaction with real-time score tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
 
-## React Compiler
+This quiz app allows users to answer multiple-choice questions, track their score, and view results instantly. Designed with a clean UI and smooth user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔️ Interactive quiz interface
+✔️ Real-time score calculation
+✔️ Dynamic question rendering
+✔️ Responsive UI design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* ❓ **Multiple Choice Questions**
+
+  * Display questions with 4 options
+  * One-click answer selection
+
+* ⏱️ **Quiz Flow**
+
+  * Navigate through questions step-by-step
+  * Auto move to next question (optional)
+
+* 🧮 **Score System**
+
+  * Real-time score tracking
+  * Final result screen with total score
+
+* 🔄 **Restart Quiz**
+
+  * Users can restart quiz anytime
+
+* 📱 **Responsive Design**
+
+  * Works on mobile, tablet, and desktop
+
+---
+
+## 🧠 Project Structure
+
+```id="r3b8dp"
+src/
+ ├── components/   → Quiz UI components
+ ├── data/         → Questions data
+ ├── App.jsx       → Main logic
+ └── main.jsx      → Entry point
+```
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+React.js, Vite
+
+**Styling:**
+CSS / Tailwind CSS
+
+---
+
+## ⚙️ Getting Started
+
+### Clone Repository
+
+```bash id="t8rj9k"
+git clone https://github.com/pr743/red-and-white-using-project-7
+cd quiz-app
+```
+
+### Install Dependencies
+
+```bash id="8a4x6m"
+npm install
+```
+
+### Run Project
+
+```bash id="k2z9df"
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+https://red-and-white-using-project-7-iumenia0y.vercel.app
+
+---
+
+
+
+## 📈 Future Improvements
+
+* Timer for each question
+* Difficulty levels (easy, medium, hard)
+* API-based questions (Open Trivia API)
+* Leaderboard system
+
+---
+
+## 👨‍💻 Author
+
+**Mungra Prince**
+Frontend Developer (React.js)
+GitHub: https://github.com/pr743
+
+---
+
+## ⭐ Support
+
+If you like this project, please ⭐ the repository!
